@@ -37,7 +37,7 @@ const [menu, setMenu] = useState(false)
             </ul>
           {menu ? (
             <ul  className='  md:hidden pt-10 pl-10 flex flex-col gap-8   h-screen w-64 bg-sky-200  '>
-              <FiX  onClick={clickHandlebutton} className="relative bottom-5 text-cyan-800 text-4xl left-35  "/>
+              <FiX  onClick={clickHandlebutton} className="relative bottom-5 text-cyan-800 text-4xl left-25  "/>
                 <li onClick={clickHandlebutton}><a href="#about" className=" hover:cursor-pointer text-cyan-800" >About</a>  </li>
                 <li onClick={clickHandlebutton}><a href="#skill" className='hover:cursor-pointer text-cyan-800'>Skills</a></li>
                 <li onClick={clickHandlebutton}> <a href="#project" className='hover:cursor-pointer text-cyan-800'>Projects</a></li>

@@ -38,7 +38,7 @@ const About = () => {
     </div>
    </div>
    <section>
-   <div className='flex justify-center mt-25 px-3 '>
+   <div className='flex justify-center mt-25 px-10 '>
      <div className=' bg-gray-100 px-7   md:px-40 lg:px-88 py-12 md:py-6'>
         <p className='italic text-gray-700 text-xs md:text-xl'>"Code is like humor. When you have to explain it, it’s bad."</p>
         <p className='text-center text-xs md:text-xl mt-5 text-gray-500'>— My Approach to Development</p>
