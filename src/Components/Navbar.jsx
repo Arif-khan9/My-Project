@@ -28,7 +28,7 @@ const [menu, setMenu] = useState(false)
             <div>
             <a href="#section"><img className='h-6 w-6 ' src="home_logo copy.png" alt="" /></a>
           </div>
-        <div className="">
+        <div className="ml-45 md:ml-3 ">
           <ul className=' hidden md:flex   md:gap-7 pt-15 pl-10 gap-5  p-4 shadow-md   px-8 md:py-4 md:rounded-full shadow-sm '>
                 <li><a href="#about" className=" hover:cursor-pointer " >About</a>  </li>
                 <li><a href="#skill" className='hover:cursor-pointer '>Skills</a></li>
