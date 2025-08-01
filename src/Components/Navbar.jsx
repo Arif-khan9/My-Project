@@ -24,11 +24,11 @@ const [menu, setMenu] = useState(false)
     <>  
     
     <nav className="shadow-2xl " > 
-        <div className='fixed top-0 left-0 w-full  backdrop-blur-md  bg-blue-100/30  shadow-sm flex md:gap-8 md:px-10 lg:gap-20  justify-between items-center py-3 md:py-6   px-5'>
+        <div className='fixed top-0 left-0 w-full  backdrop-blur-md  bg-blue-100/30  shadow-sm flex   justify-between items-center py-3 md:py-6   px-7'>
             <div>
             <a href="#section"><img className='h-6 w-6 ' src="home_logo copy.png" alt="" /></a>
           </div>
-        <div className=" ml-40">
+        <div className="">
           <ul className=' hidden md:flex   md:gap-7 pt-15 pl-10 gap-5  p-4 shadow-md   px-8 md:py-4 md:rounded-full shadow-sm '>
                 <li><a href="#about" className=" hover:cursor-pointer " >About</a>  </li>
                 <li><a href="#skill" className='hover:cursor-pointer '>Skills</a></li>
@@ -48,8 +48,8 @@ const [menu, setMenu] = useState(false)
              <FiX  onClick={clickHandlebutton} className=" hidden md:hidden relative bottom-11 text-cyan-800 text-3xl left-35 bg"/>
           )}  
         </div>
-        <div className='flex items-center justify-center gap-6'>
-          {darkmode ?<IoMoonOutline  className="h-6 w-6" onClick={lightmode} /> :  <CiBrightnessDown  className="h-6 w-6" onClick={lightmode}/>}
+        <div className='flex items-center justify-center gap-3 '>
+          {darkmode ?<IoMoonOutline  className="h-6 w-6 " onClick={lightmode} /> :  <CiBrightnessDown  className="h-6 w-6" onClick={lightmode}/>}
             <a download href="../../last.pdf"><button  className='md:flex hidden md:block border px-10 py-3 gap-3.5 rounded-full'>Resume <span><GoDownload className="h-5 w-5" /></span></button></a>
            <div><CiMenuFries  values="menu" onClick={clickHandlebutton} className='md:hidden h-6 w-6  '/> </div>
         </div>
