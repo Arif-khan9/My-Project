@@ -3,9 +3,8 @@
 A modern, responsive **frontend developer portfolio** built using **React**, **Tailwind CSS**, and **JavaScript**, featuring **dark/light mode**, smooth scroll navigation, and resume download functionality.
 
 ## Visit my project
-
+<a href="https://my-project-olive-xi.vercel.app" target="_blank">
   Visit My Portfolio
-  https://my-project-olive-xi.vercel.app"
 </a>
 
 
@@ -18,7 +17,7 @@ A modern, responsive **frontend developer portfolio** built using **React**, **T
 -  Smooth scrolling to different sections
 -  External links open in new tabs
 
-##  Preview
+
 
 
 ## Tech Stack
