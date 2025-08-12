@@ -24,8 +24,8 @@ const About = () => {
             <p>Years of Experience</p>
         </motion.div>
          <motion.div variants={fadeWithNoSize(0)} initial="hidden" whileInView={"show"}>
-            <h1 className='text-5xl font-bold text-purple-600'>1</h1>
-            <p>Projects Completed</p>
+            <h1 className='text-5xl font-bold text-purple-600'>10+</h1>
+            <p>Skills Mastered</p>
         </motion.div>
         
     </div>
