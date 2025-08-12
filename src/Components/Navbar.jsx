@@ -5,6 +5,8 @@ import { GoDownload } from "react-icons/go";
 import { IoMoonOutline } from "react-icons/io5";
 import { CiBrightnessDown } from "react-icons/ci";
 import { FiX } from "react-icons/fi";
+import { motion} from 'framer-motion';
+import fadeIn, { fadeWithNoSize } from './Animation';
 
 const Navbar = () => {  
  const [ darkmode , setDarkmode]=  useState(false)
@@ -36,13 +38,15 @@ const [menu, setMenu] = useState(false)
                 <li><a href="#contect" className='hover:cursor-pointer'>Contact</a></li>      
             </ul>
           {menu ? (
-            <ul  className='  md:hidden pt-10 pl-10 flex flex-col gap-8   h-screen w-64 bg-sky-200  '>
-              <FiX  onClick={clickHandlebutton} className="relative bottom-5 text-cyan-800 text-4xl left-25  "/>
+            <motion.ul  className='  md:hidden pt-10 pl-10 flex flex-col gap-8   h-screen w-64 bg-sky-200  ' variants={fadeIn("left")} initial="hidden" whileInView={"show"}>
+              <motion.div variants={fadeIn("left")} initial="hidden" whileInView={"show"}>
+                   <FiX  onClick={clickHandlebutton} className="relative bottom-5 text-cyan-800 text-4xl left-25  "/>
+              </motion.div>
                 <li onClick={clickHandlebutton}><a href="#about" className=" hover:cursor-pointer text-cyan-800" >About</a>  </li>
                 <li onClick={clickHandlebutton}><a href="#skill" className='hover:cursor-pointer text-cyan-800'>Skills</a></li>
                 <li onClick={clickHandlebutton}> <a href="#project" className='hover:cursor-pointer text-cyan-800'>Projects</a></li>
                 <li onClick={clickHandlebutton}><a href="#contect" className='hover:cursor-pointer text-cyan-800'>Contact</a></li>      
-            </ul>
+            </motion.ul>
              
           ) : (
              <FiX  onClick={clickHandlebutton} className=" hidden md:hidden relative bottom-11 text-cyan-800 text-3xl left-35 bg"/>

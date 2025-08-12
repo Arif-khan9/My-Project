@@ -18,14 +18,10 @@ A modern, responsive **frontend developer portfolio** built using **React**, **T
 -  External links open in new tabs
 
 
-
-
 ## Tech Stack
 
 - React.js
 - Tailwind CSS
 - JavaScript
 - HTML5
-
-## Folder Structure
 
