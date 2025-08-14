@@ -53,7 +53,7 @@ const [menu, setMenu] = useState(false)
           )}  
         </div>
         <div className='flex items-center justify-center gap-3 '>
-          {darkmode ?<IoMoonOutline  className="h-6 w-6 " onClick={lightmode} /> :  <CiBrightnessDown  className="h-6 w-6" onClick={lightmode}/>}
+          {darkmode ?   <CiBrightnessDown  className="h-6 w-6" onClick={lightmode}/> : <IoMoonOutline  className="h-6 w-6 " onClick={lightmode} />}
             <a download href="../../last.pdf"><button  className='md:flex hidden md:block border px-10 py-3 gap-3.5 rounded-full'>Resume <span><GoDownload className="h-5 w-5" /></span></button></a>
            <div><CiMenuFries  values="menu" onClick={clickHandlebutton} className='md:hidden h-6 w-6  '/> </div>
         </div>
