@@ -35,7 +35,7 @@ const Navbar = () => {
           {darkmode ?<IoMoonOutline  className="h-6 w-6" onClick={lightmode} /> :  <CiBrightnessDown  className="h-6 w-6" onClick={lightmode}/>}
           
          
-            <a download href="../../last.pdf"><button  className='md:flex hidden md:block border px-10 py-3 gap-3.5 rounded-full'>Resume <span><GoDownload className="h-5 w-5" /></span></button></a>
+            <a download href="../../ArifResume.pdf"><button  className='md:flex hidden md:block border px-10 py-3 gap-3.5 rounded-full'>Resume <span><GoDownload className="h-5 w-5" /></span></button></a>
             <div>
             <CiMenuFries  className='md:hidden h-6 w-6'/>
             </div>

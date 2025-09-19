@@ -39,11 +39,6 @@ const Contact = () => {
       <h3 className='text-5xl mt-2 font-Ovo'>Get in touch</h3>
       <p className='mt-5 text-xs px-2.5 md:text-xl'>I'd love to hear from you! If you have any questions, comments, or feedback, please use the form <br /> below.</p>
       </motion.div>
-    {/* <div id='contect' className='mt-25 text-center scroll-mt-28'>
-      <p className=''>Connect with me</p>
-      <h3 className='text-5xl mt-2 font-Ovo'>Get in touch</h3>
-      <p className='mt-5 text-xs px-2.5 md:text-xl'>I'd love to hear from you! If you have any questions, comments, or feedback, please use the form <br /> below.</p>
-    </div> */}
     <div className='flex flex-col items-center mt-10 gap-5'>
      <form className='flex flex-col items-center mt-10 gap-5' onSubmit={handlesumitbtn}>
       <motion.div className='flex-col flex md:flex md:flex-row gap-5' variants={fadeIn("down")} initial="hidden" whileInView={"show"}>
